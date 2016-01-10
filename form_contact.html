@@ -1,0 +1,94 @@
+<!-- page créée le 04/01/2016 par Silvère Camponovo -->
+<!-- dernière mise à jour le 10/01/2016 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<!--[if lt IE 9]>
+		<script src="http://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="style.css" />
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<title>CV Silvère Camponovo - état civil</title>
+	</head>
+	
+	<body>
+		
+		<section class="page">
+		<nav>
+		<div id="portrait">
+		<figure>
+				<a href="etat_civil.html" title="focus sur mon état civil"><img src="images/IMG_6340_Version_2_light.jpg" alt="mon portrait" class="bordimage" /></a><br />
+				<figcaption id="titre_CV">Silvère Camponovo</figcaption>	
+		</figure>
+		<a href="https://fr.linkedin.com/in/silvere-camponovo-5840a37a" title="mon profil linkedin"><img src="images/LinkedIn_logo_small.png" alt="mon profil linkedin" class="bordlogo" /></a>
+		<a href="http://www.viadeo.com/fr/profile/silvere.camponovo" title="mon profil viadeo"><img src="images/Viadeo_logo_small.png" alt="mon profil viadeo" class="bordlogo" /></a>						
+		</div>
+			
+		<div id="menu_contenu_site">
+		<h4 id="contenusite">contenu du site</h4>
+			<p><a href="index.html">Accueil et CV</a></p>
+			<p><a href="experiences.html">Mes expériences</a></p>
+			<!-- attention pages html à créer -->
+			<p><a href="expe_info.html" class="disabled" title="page en cours de création">Focus projets informatiques</a></p>
+			<p><a href="etat_civil.html">Mon état civil</a></p>
+			<!-- attention page html à créer -->
+			<p><a href="spots.html" class="disabled" title="page en cours de création">Mes meilleurs spots</a></p>
+			<!-- A remplacer par un formulaire !!! -->
+			<p id="contact"><a href="form_contact.html" class="disabled" title="page en cours de création">Contactez-moi</a>!</p>
+			<p id="telechargez_CV"><a href="docs/160103_CV.pdf">Téléchargez mon CV</a>!</p>
+		</div>
+		</nav>
+		
+		<section class="contenu">
+		<header>
+		<h1 title="A vous de jouer !">Me contacter<h1>
+			<p class="center">Base de données en cours de création<br/>
+			Merci de préférer un contact par <a href="mailto:silvere.camponovo@me.com" title="mon adresse mail">mail</a>.
+			</p>
+		</header>
+		
+		<section class="corps-lig">
+		<article class="ligne">
+		<h2 id="etat_civil">Votre message</h2>
+			<!-- traitement du contact à créer en PHP -->
+			<form method="post" action="contact.php">
+				<fieldset>
+					<legend>Vos coordonnées</legend>
+					<p>
+					<input type="radio" name="sexe" value="madame" id="madame" /> <label for="madame">Mme</label>
+					<input type="radio" name="sexe" value="monsieur" id="monsieur" /> <label for="monsieur">Mr</label>
+					</p>
+					<p><label for="nom">Votre nom</label></p>
+					<input type="text" name="nom" id="nom" size="80" required autofocus />
+					<p><label for="prenom">Votre prénom</label></p>
+					<input type="text" name="prenom" id="prenom" size="80" required />
+					<p><label for="email">Votre adresse e-mail</label></p>
+					<input type="email" name="email" id="email" size="80" required />			
+				</fieldset>
+				
+				<fieldset>
+					<legend>Votre message</legend>
+					<p><label for="objet">Objet</label></p>
+					<input type="text" name="objet" id="objet" size="80" required />				
+					<p><label for="message">Votre message</label></p>
+					<textarea name="contenu_message" id="message" rows="20" cols="80"></textarea>
+				</fieldset>
+				
+				<p id="envoyer"><input type="submit" value="envoyer" class="bouton" title="page en cours de création"/></p>
+				
+			</form>
+		</article>
+		
+		</section>
+		</section>
+		</section>
+		
+		<footer>
+		<p>© 2016 - site réalisé par Silvère Camponovo - dernière mise à jour le 06/01/2016.</p>
+		</footer>
+		
+	</body>
+</html>

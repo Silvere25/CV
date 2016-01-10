@@ -1,0 +1,877 @@
+/* style créé par Silvère Camponovo le 04/01/2016 */
+/* dernière modification le 10/01/2016 */
+
+/* polices */
+@font-face
+{
+	font-family: 'Normal';
+	src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* caractéristiques générale de ma page */
+html
+{
+	background-color:#F9F9F9;
+}
+
+body
+{
+	padding:1% 10%;
+	background-color:#F6F2F6;
+	background-image:url('images/photo_vosges.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed; /*scroll à tester aussi */
+	overflow:auto;
+}
+
+header
+{
+	padding:20px 20px;
+	background-color: rgba(246,242,246,0.5);
+	border-radius:1rem;
+	min-width:300px;
+	height:263px;
+	overflow:auto;
+}
+
+nav
+{
+	padding:15px 15px;
+	background-color:rgba(245,252,247,0.6);
+	border-radius:1rem;
+	width:250px;
+	min-width:220px;
+	overflow:auto;
+}
+
+article
+{
+	padding:20px 20px;
+	background-color:rgba(246,242,246,0.5);
+	border-radius:1rem;
+	min-width:300px;
+	overflow:auto;
+}
+
+footer
+{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.page
+{
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.contenu
+{
+	display: flex;
+	flex-direction:column;
+	margin-left:20px;
+}
+
+.corps-col
+{
+	display: flex;
+	flex-direction:row;
+	margin-top:20px;
+}
+
+.corps-lig
+{
+	display: flex;
+	flex-direction:column;
+	margin-top:20px;
+}
+
+article[class="colonne"]:nth-child(1)
+{
+	margin-right:20px;
+}
+
+article[class="ligne"]:nth-child(1)
+{
+	margin-bottom:20px;
+}
+
+article[class="bloc"]
+{
+	margin-bottom:20px;
+}
+
+article[class="bloc"]:nth-last-child(1)
+{
+	margin-bottom:0px;
+}
+
+/* caractéristiques des blocs de texte */
+h1
+{
+	font-size: 2.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin-top:0px;
+	text-align: center;
+	color: #0D3475;
+}
+
+h2
+{
+	font-size: 1.8em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: extra-bold;
+	margin-top:0px;
+	color:#233F8C;
+}
+
+h3
+{
+	font-size: 1.4em;
+	font-family: 'Raleway', Normal, sans-serif;
+	font-weight: bold;
+	margin-top:1.1em;
+	color:#4D6013;
+}
+
+h4
+{
+	font-size: 1.2em;
+	font-family: 'Raleway', Normal, sans-serif;
+	font-weight: semi-bold;
+	color: #732318;
+}
+
+p, li, td, th, legend, .bouton
+{
+	font-size: 1em;
+	font-family: 'Raleway', Normal, sans-serif;
+	font-weight: normal;
+	text-align: justify;
+	color: #061F63;
+}
+
+td
+{
+	font-size:0.7em;
+	border:1px solid #061F63;
+	text-align:center;
+	width:10em;
+	height:2em;
+}
+
+th
+{
+	font-size:0.7em;
+	font-weight:bold;
+	text-align:center;
+	height:3em;
+}
+
+li
+{
+	text-indent:0em;
+	margin-left:3em;
+	list-style : square outside url('images/case_cochee_small.png');
+}
+
+ul>li ul li
+{
+	text-align:left;
+	text-indent:0em;
+	margin-left:0%;
+	list-style: circle outside;
+}
+
+legend
+{
+	font-weight:bold;
+}
+
+#envoyer
+{
+	text-align:right;
+}
+
+p[class^="intro"] ~ ul li
+{
+	text-align:center;
+	margin-left:0em;
+	list-style: none outside none;
+}
+
+figure
+{
+	text-align:center;
+	margin:0%;
+}
+
+figcaption
+{
+	font-size: 1em;
+	font-family: 'Raleway', Normal, sans-serif;
+	font-weight: normal;
+	text-align: center;
+}
+
+table
+{
+	margin:auto;
+	border-collapse:collapse;
+	table-layout:fixed;
+}
+
+.grise
+{
+	background-color: gray;
+}
+
+.sansbordure
+{
+	border:0px;
+	color:#9E2721;
+	height:3em;
+	vertical-align:bottom;
+}
+
+textarea
+{
+	width:100%;
+	height:25%;
+}
+
+footer p
+{
+	color:rgb(245,252,247);
+}
+
+.bordimage
+{
+	margin-top:5px;
+	margin-bottom:12px;
+	border: 1px solid rgba(245,252,247,0);
+	border-radius:1rem;
+	max-width:200px;
+}
+
+.bordlogo
+{
+	border-radius:0.2rem;
+	margin-top:15px;
+}
+
+.intro
+{
+	font-size: 1.3em;
+	font-weight: bold;
+	color:#B73423;
+	text-align:center;
+}
+
+.center
+{
+	text-align:center;
+}
+
+.focus_info
+{
+	font-size: 1.2em;
+	font-weight: semi-bold;
+	text-align:right;
+	text-shadow:3px 3px 4px #6D88B5;
+}
+
+.date
+{
+	font-size:1.1em;
+	font-weight:bold;
+	margin-top:0em;
+	color:#9E2721;
+	text-shadow:2px 2px 2px #BF827F;
+}
+
+#contact, #telechargez_CV
+{
+	font-size: 1em;
+	margin-top: 2em;
+}
+
+#portrait
+{
+	margin:0%;
+	text-align:center;
+}
+
+#titre_CV
+{
+	font-size: 1.8em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #0D3475;
+}
+
+#contenupage
+{
+	font-size: 1.1em;
+	font-family: 'Montserrat', sans-serif;
+	margin-top:3em;
+	text-align:left;
+}
+
+#contenusite
+{
+	font-size: 1.1em;
+	font-family: 'Montserrat', sans-serif;
+	margin-top:3em;
+	text-align:left;
+}
+
+h2 + p
+{
+	font-size:1.05em;
+	font-weight:semi-bold;
+	text-align: right;
+}
+
+h3 + p
+{
+	font-size: 1.05em;
+}
+
+h4[id^="contenu"] ~ p
+{
+	font-size: 0.8em;
+	text-align:left;
+}
+
+/* caractéristiques des lines et du dynamisme hoover focus */
+
+h3 mark
+{
+	font-style: oblique;
+	background-color: transparent;
+	font-weight: semi-bold;
+	color:#546915;
+}
+
+p mark
+{
+	font-style: italic;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+p strong
+{
+	font-style: normal;
+	font-weight: bold;
+}
+
+p em, li em
+{
+	font-style: italic;
+	font-weight: medium;
+}
+
+a
+{
+	color:#0D3475;
+}
+
+p a, em a, h2 a
+{
+	text-decoration:none;
+}
+
+td a[href*="#"], td a[href*="#"]:visited
+{
+	color:initial;
+}
+
+.sansbordure a[href*="#"], .sansbordure a[href*="#"]:visited
+{
+	color:#9E2721;
+}
+
+a:visited
+{
+	color : #061938;
+}
+
+a:focus, a:hover
+{
+	color : #B73423;
+}
+
+a[href*="#"]
+{
+	text-decoration:none;
+	color: #4D6013;
+}
+
+a[href*="#"]:visited
+{
+	text-decoration:none;
+	color: #2E390C;
+}
+
+.disabled:focus, .disabled:hover
+{
+	color: #EDEFEC;
+}
+
+a[href*="#"]:focus, a[href*="#"]:hover
+{
+	color : #B73423;
+}
+
+h1:hover
+{
+	color:#9E2721;
+}
+
+.bordimage:hover
+{
+	border: 1px inset rgba(245,252,247,0.6);
+}
+
+:required
+{
+	border : 1px solid #9E2721;
+}
+
+:invalid
+{
+	color : #9E2721;
+}
+
+/* media query pour les petites résolutions */
+@media all and (min-width:560px) and (max-width:1024px)
+{
+	/* affichage page */
+	header, nav, article
+	{
+		padding:10px;
+		width:auto;
+		min-width:initial;
+		height:auto;
+		border-radius:0.6rem;
+	}
+	
+	nav
+	{
+		display:flex;
+		flex-direction:row;
+		justify-content:space-between;
+		margin-bottom:10px;
+	}
+	
+	.bordimage
+	{
+		margin:auto;
+		max-width:150px;
+	}
+	
+	#menu_contenu_page
+	{
+		order:3;
+	}
+	
+	#menu_contenu_site
+	{
+		order:1;
+	}
+	
+	#portrait
+	{
+		order:2;
+	}
+	
+	#menu_contenu_page, #menu_contenu_site
+	{
+		width:30%;
+		align-self:flex-end;
+	}
+	
+	.page, .corps-col
+	{
+		flex-direction:column;
+	}
+	
+	.contenu
+	{
+		margin-left:0px;
+	}
+	
+	.corps-col, .corps-lig
+	{
+		margin-top:10px;
+	}
+	
+	article[class="colonne"]:nth-child(1)
+	{
+		margin-right:0px;
+		margin-bottom:10px;
+	}
+
+	article[class="ligne"]:nth-child(1)
+	{
+		margin-bottom:10px;
+	}
+
+	article[class="bloc"]
+	{
+		margin-bottom:10px;
+	}
+	
+	/* affichage block */
+	h1
+	{
+		font-size:1.6em;
+	}
+	
+	h2, #titre_CV
+	{
+		font-size:1.4em;
+	}
+	
+	h3, .intro
+	{
+		font-size:1.2em;
+	}
+	
+	h4
+	{
+		font-size:1em;
+	}
+	
+	p, li, legend, .bouton, figcaption, #contact, #telechargez_CV, h2 + p, h3 + p
+	{
+		font-size:0.8em;
+	}
+	
+	h1, h2, h3, h4, p, li, legend, td, th, .bouton, figcaption, #contact, #telechargez_CV, #contenupage, #contenusite
+	{
+		margin:auto;
+	}
+		
+	li
+	{
+		list-style : square outside url('images/case_cochee_very_small.png');
+	}
+	
+	td, th
+	{
+		height:1.6em;
+		font-size:0.6em;
+	}
+	
+	.sansbordure
+	{
+		height:1.6em;
+	}
+	
+}
+
+@media all and (min-width:1024px) and (max-width:1600px)
+{
+	/* affichage page */
+	header, nav, article
+	{
+		padding:10px;
+		width:auto;
+		min-width:initial;
+		height:auto;
+		border-radius:0.6rem;
+	}
+	
+	/* affichage blocks */
+	h1, h2, h3, h4, p, li, legend, td, th, .bouton, figcaption, #contact, #telechargez_CV, #contenupage, #contenusite
+	{
+		margin:auto;
+	}
+	
+}
+
+@media all and (min-width:480px) and (max-width:560px)
+{
+	/* affichage page */
+	header, nav, article
+	{
+		padding:5px;
+		width:auto;
+		min-width:initial;
+		height:auto;
+		border-radius:0.4rem;
+	}
+	
+	nav
+	{
+		display:flex;
+		flex-direction:raw;
+		justify-content:space-between;
+		margin-bottom:5px;
+	}
+	
+	.bordimage
+	{
+		margin:auto;
+		max-width:120px;
+	}
+	
+	.bordlogo
+	{
+		margin:auto;
+		max-width:30px;
+	}
+	
+	#menu_contenu_page
+	{
+		display:none;
+	}
+	
+	#menu_contenu_site
+	{
+		order:2;
+	}
+	
+	#portrait
+	{
+		order:1;
+	}
+	
+	#menu_contenu_page, #menu_contenu_site
+	{
+		width:30%;
+		align-self:flex-start;
+	}
+	
+	.page, .corps-col
+	{
+		flex-direction:column;
+	}
+	
+	.contenu
+	{
+		margin-left:0px;
+	}
+	
+	.corps-col, .corps-lig
+	{
+		margin-top:5px;
+	}
+	
+	article[class="colonne"]:nth-child(1)
+	{
+		margin-right:0px;
+		margin-bottom:5px;
+	}
+
+	article[class="ligne"]:nth-child(1)
+	{
+		margin-bottom:5px;
+	}
+
+	article[class="bloc"]
+	{
+		margin-bottom:5px;
+	}
+	
+	/* affichage block */
+	h1
+	{
+		font-size:1.5em;
+	}
+	
+	h2, #titre_CV
+	{
+		font-size:1.3em;
+	}
+	
+	h3, .intro
+	{
+		font-size:1.1em;
+	}
+	
+	h4
+	{
+		font-size:0.9em;
+	}
+	
+	p, li, legend, .bouton, figcaption, #contact, #telechargez_CV, h2 + p, h3 + p
+	{
+		font-size:0.8em;
+	}
+	
+	h1, h2, h3, h4, p, li, legend, td, th, .bouton, figcaption, #contact, #telechargez_CV, #contenupage, #contenusite
+	{
+		margin:auto;
+	}
+		
+	li
+	{
+		list-style : square outside url('images/case_cochee_very_very_small.png');
+	}
+	
+	td, th
+	{
+		height:1.2em;
+		font-size:0.6em;
+	}
+	
+	.sansbordure
+	{
+		height:1.2em;
+	}
+	
+}
+
+@media all and (max-width:480px)
+{
+	/* affichage page */
+	header, nav, article
+	{
+		padding:3px;
+		width:auto;
+		min-width:initial;
+		height:auto;
+		border-radius:0.4rem;
+	}
+	
+	nav
+	{
+		display:flex;
+		flex-direction:raw;
+		justify-content:space-between;
+		margin-bottom:3px;
+	}
+	
+	.bordimage
+	{
+		margin:auto;
+		max-width:80px;
+	}
+	
+	.bordlogo
+	{
+		margin:auto;
+		max-width:20px;
+	}
+	
+	#menu_contenu_page
+	{
+		display:none;
+	}
+	
+	#menu_contenu_site
+	{
+		order:2;
+	}
+	
+	#portrait
+	{
+		order:1;
+		align-self:center;
+	}
+	
+	#menu_contenu_page, #menu_contenu_site
+	{
+		width:auto;
+		align-self:flex-start;
+	}
+	
+	table
+	{
+		display:none;
+	}
+	
+	.page, .corps-col
+	{
+		flex-direction:column;
+	}
+	
+	.contenu
+	{
+		margin-left:0px;
+	}
+	
+	.corps-col, .corps-lig
+	{
+		margin-top:3px;
+	}
+	
+	article[class="colonne"]:nth-child(1)
+	{
+		margin-right:0px;
+		margin-bottom:3px;
+	}
+
+	article[class="ligne"]:nth-child(1)
+	{
+		margin-bottom:3px;
+	}
+
+	article[class="bloc"]
+	{
+		margin-bottom:3px;
+	}
+	
+	/* affichage block */
+	h1
+	{
+		font-size:1.2em;
+	}
+	
+	h2, #titre_CV
+	{
+		font-size:1.1em;
+	}
+	
+	h3, .intro, #contenupage, #contenusite
+	{
+		font-size:1em;
+	}
+	
+	h4
+	{
+		font-size:0.9em;
+	}
+	
+	p, li, legend, .bouton, figcaption, #contact, #telechargez_CV, h2 + p, h3 + p
+	{
+		font-size:0.8em;
+	}
+	
+	h1, h2, h3, h4, p, li, legend, td, th, .bouton, figcaption, #contact, #telechargez_CV, #contenupage, #contenusite
+	{
+		margin:auto;
+	}
+	
+	li
+	{
+		list-style : square outside url('images/case_cochee_very_very_small.png');
+	}
+	
+	td, th
+	{
+		height:1.1em;
+		font-size:0.6em;
+	}
+	
+	.sansbordure
+	{
+		height:1.1em;
+	}
+	
+}
