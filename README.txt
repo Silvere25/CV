@@ -1,6 +1,7 @@
--- Fichier crÈÈ par SilvËre Camponovo le 10/01/2016 --
--- DerniËre modification le 11/01/2016 --
+-- Fichier cr√©√© par Silv√®re Camponovo le 10/01/2016 --
+-- Derni√®re modification le 11/01/2016 --
 
-Vous trouverez dans ce projet git un site web prÈsentant mon CV.
+Vous trouverez dans ce projet git un site web pr√©sentant mon CV.
+Merci d'avance de votre discr√©tion concernant les documents contenus dans ces pages.
 
 Bonne navigation !
