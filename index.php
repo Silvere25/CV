@@ -1,53 +1,28 @@
-<!-- page créée le 03/01/2016 par Silvère Camponovo -->
-<!-- dernière mise à jour le 10/01/2016 -->
+<?php
+session_start();
+$_SESSION['active_page']="index.php";
+include("includes/com.php");
+?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<!--[if lt IE 9]>
-		<script src="http://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js"></script>
-		<![endif]-->
-		<link rel="stylesheet" href="style.css" />
-		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<?php include("includes/head.php"); ?>
 		<title>CV Silvère Camponovo</title>
 	</head>
 
 	<body>
 		<section class="page">
-		<nav>
-		<div id="portrait">
-		<figure>
-			<a href="etat_civil.html" title="focus sur mon état civil"><img src="images/IMG_6340_Version_2_light.jpg" alt="mon portrait" class="bordimage" /></a><br />
-			<figcaption id="titre_CV">Silvère Camponovo</figcaption>
-		</figure>
-		<a href="https://fr.linkedin.com/in/silvere-camponovo-5840a37a" title="mon profil linkedin"><img src="images/LinkedIn_logo_small.png" alt="mon profil linkedin" class="bordlogo" /></a>
-		<a href="http://www.viadeo.com/fr/profile/silvere.camponovo" title="mon profil viadeo"><img src="images/Viadeo_logo_small.png" alt="mon profil viadeo" class="bordlogo" /></a>						
-		</div>
+        <nav>    
+            <?php include("includes/nav.php"); ?>
 		
-		<div id="menu_contenu_page">
-		<h4 id="contenupage">contenu de la page</h4>
-			<p><a href="#competences">Compétences</a></p>
-			<p><a href="#experience">Expériences</a></p>
-			<p><a href="#formation">Formations</a></p>
-			<p><a href="#centreinteret">Centres d'intérêts</a></p>
-			<p><a href="#portrait">Liens réseaux pro</a></p>
-		</div>
-		
-		<div id="menu_contenu_site">
-		<h4 id="contenusite">contenu du site</h4>
-			<p><a href="index.html">Accueil et CV</a></p>
-			<p><a href="experiences.html">Mes expériences</a></p>
-			<!-- attention page html à créer -->
-			<p><a href="expe_info.html" class="disabled" title="page en cours de création">Focus projets informatiques</a></p>
-			<p><a href="etat_civil.html">Mon état civil</a></p>
-			<!-- attention page html à créer -->
-			<p><a href="spots.html" class="disabled" title="page en cours de création">Mes meilleurs spots</a></p>
-			<!-- A remplacer par un formulaire !!! -->
-			<p id="contact"><a href="form_contact.html" class="disabled" title="page en cours de création">Contactez-moi</a>!</p>
-			<p id="telechargez_CV"><a href="docs/160103_CV.pdf">Téléchargez mon CV</a>!</p>
-		</div>
+            <div id="menu_contenu_page">
+            <h4 id="contenupage">contenu de la page</h4>
+                <p><a href="#competences">Compétences</a></p>
+                <p><a href="#experience">Expériences</a></p>
+                <p><a href="#formation">Formations</a></p>
+                <p><a href="#centreinteret">Centres d'intérêts</a></p>
+                <p><a href="#portrait">Liens réseaux pro</a></p>
+            </div>
 		</nav>
 		
 		<section class="contenu">
@@ -102,25 +77,25 @@
 		</article>
 		
 		<article class="colonne">
-		<h2 id="experience" title="du vécu"><a href="experiences.html">Expériences</a></h2>
-			<p class="focus_info"><a href="expe_info.html" title="focus sur mes expériences autour des projets informatiques - page en cours de création"  class="disabled">Focus bagage informatique et AMOA</a></p>
+		<h2 id="experience" title="du vécu"><a href="experiences.php">Expériences</a></h2>
+			<p class="focus_info"><a href="expe_info.php" title="focus sur mes expériences autour des projets informatiques - page en cours de création"  class="disabled">Focus bagage informatique et AMOA</a></p>
 		
-			<h3><a href="experiences.html#rc">Responsable Relation Clients</a></h3>
+			<h3><a href="experiences.php#rc">Responsable Relation Clients</a></h3>
 				<p>Jura Filtration, Pontarlier (25) - Juillet 2014 à Décembre 2015</p>
 		
-			<h3><a href="experiences.html#mp">Responsable Service Méthodes et Planification</a></h3>
+			<h3><a href="experiences.php#mp">Responsable Service Méthodes et Planification</a></h3>
 				<p>Veolia Eau, Centre Alsace Franche-Comté, Voujeaucourt (25) - Juillet 2012 à Juillet 2014</p>
 			
-			<h3><a href="experiences.html#sae">Responsable Aide à l'Exploitation</a></h3>
+			<h3><a href="experiences.php#sae">Responsable Aide à l'Exploitation</a></h3>
 				<p>Veolia Eau, Centre Alsace Franche-Comté, Voujeaucourt (25) - Janvier 2012 à Juillet 2014</p>
 			
-			<h3><a href="experiences.html#ass">Responsable Réseaux Assainissement</a></h3>
+			<h3><a href="experiences.php#ass">Responsable Réseaux Assainissement</a></h3>
 				<p>Veolia Eau, Agence Pays de Montbéliard, Voujeaucourt (25) - Janvier 2008 à Décembre 2011</p>
 			
-			<h3><a href="experiences.html#er">Responsable Etudes et Réalisations</a></h3>
+			<h3><a href="experiences.php#er">Responsable Etudes et Réalisations</a></h3>
 				<p>Veolia Eau, Agence Pays de Montbéliard, Voujeaucourt (25) - Janvier 2006 à Décembre 2011</p>
 			
-			<h3><a href="experiences.html#inge">Ingénieur Méthodes</a></h3>
+			<h3><a href="experiences.php#inge">Ingénieur Méthodes</a></h3>
 				<p>Veolia Water, Direction Technique, Paris (75) - Octobre 2001 à Décembre 2005</p>
 		</article>
 		</section>
@@ -147,8 +122,8 @@
 		<article class="ligne">
 		<h2 id="centreinteret" title="et de la passion">Centres d'intérêts</h2>
 			<ul>
-				<li><em><a href="spots.html"  class="disabled" title="page en cours de création">sport</a></em> : course à pied sur route comme dans la nature et VTT.</li>
-				<li><em><a href="spots.html"  class="disabled" title="page en cours de création">nature</a></em> : randonnées, photos.</li>
+				<li><em><a href="spots.php"  class="disabled" title="page en cours de création">sport</a></em> : course à pied sur route comme dans la nature et VTT.</li>
+				<li><em><a href="spots.php"  class="disabled" title="page en cours de création">nature</a></em> : randonnées, photos.</li>
 				<li><em>sciences</em> : veille sur les recherches et découvertes scientifiques, intérêt du moment pour la neurologie et les sciences cognitives.</li>
 				<li><em>nouvelles technologies</em> : passion pour les mesures, les capteurs et pour les objets et services qui en découlent.</li>
 			</ul>
@@ -157,9 +132,7 @@
 		</section>
 		</section>
 		
-		<footer>
-		<p>© 2016 - site réalisé par Silvère Camponovo - dernière mise à jour le 06/01/2016.</p>
-		</footer>
+		<?php include("includes/footer.php"); ?>
 		
 	</body>
 </html>

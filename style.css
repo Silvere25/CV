@@ -303,7 +303,7 @@ footer p
 #contact, #telechargez_CV
 {
 	font-size: 1em;
-	margin-top: 2em;
+	padding-top: 1em;
 }
 
 #portrait
@@ -325,7 +325,7 @@ footer p
 {
 	font-size: 1.1em;
 	font-family: 'Montserrat', sans-serif;
-	margin-top:3em;
+	padding-top:2em;
 	text-align:left;
 }
 
@@ -333,7 +333,7 @@ footer p
 {
 	font-size: 1.1em;
 	font-family: 'Montserrat', sans-serif;
-	margin-top:3em;
+	padding-top:2em;
 	text-align:left;
 }
 

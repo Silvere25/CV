@@ -1,56 +1,31 @@
-<!-- page créée le 03/01/2016 par Silvère Camponovo -->
-<!-- dernière mise à jour le 10/01/2016 -->
+<?php
+session_start();
+$_SESSION['active_page']="experiences.php";
+include("includes/com.php");
+?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width" />
-		<!--[if lt IE 9]>
-		<script src="http://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js"></script>
-		<![endif]-->
-		<link rel="stylesheet" href="style.css" />
-		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<?php include("includes/head.php"); ?>
 		<title>CV Silvère Camponovo - Expériences</title>
 	</head>
 	
 	<body>
 		
 		<section class="page">
-		<nav>
-		<div id="portrait">
-		<figure>
-			<a href="etat_civil.html" title="focus sur mon état civil"><img src="images/IMG_6340_Version_2_light.jpg" alt="mon portrait" class="bordimage" /></a><br />
-			<figcaption id="titre_CV">Silvère Camponovo</figcaption>
-		</figure>
-		<a href="https://fr.linkedin.com/in/silvere-camponovo-5840a37a" title="mon profil linkedin"><img src="images/LinkedIn_logo_small.png" alt="mon profil linkedin" class="bordlogo" /></a>
-		<a href="http://www.viadeo.com/fr/profile/silvere.camponovo" title="mon profil viadeo"><img src="images/Viadeo_logo_small.png" alt="mon profil viadeo" class="bordlogo" /></a>						
-		</div>
-		
-		<div id="menu_contenu_page">
-		<h4 id="contenupage">contenu de la page</h4>
-			<p><a href="#inge">Ingénieur Méthodes</a></p>
-			<p><a href="#er">Responsable Etudes et Réalisations</a></p>
-			<p><a href="#ass">Responsable Réseaux Assainissement</a></p>
-			<p><a href="#sae">Responsable Service Aide à l'Exploitation</a></p>
-			<p><a href="#mp">Responsable Service Méthodes et Planification</a></p>
-			<p><a href="#rc">Responsable Relation Clients</a></p>
-		</div>
-		
-		<div id="menu_contenu_site">
-		<h4 id="contenusite">contenu du site</h4>
-			<p><a href="index.html">Accueil et CV</a></p>
-			<p><a href="experiences.html">Détail de mes expériences</a></p>
-			<!-- attention pages html à créer -->
-			<p><a href="expe_info.html" class="disabled" title="page en cours de création">Focus projets informatiques</a></p>
-			<p><a href="etat_civil.html">Mon état civil</a></p>
-			<!-- attention page html à créer -->
-			<p><a href="spots.html" class="disabled" title="page en cours de création">Mes meilleurs spots</a></p>
-			<!-- A remplacer par un formulaire !!! -->
-			<p id="contact"><a href="form_contact.html" class="disabled" title="page en cours de création">Contactez-moi</a>!</p>
-			<p id="telechargez_CV"><a href="docs/160103_CV.pdf">Téléchargez mon CV</a>!</p>
-		</div>
-		</nav>
+        <nav>
+            <?php include("includes/nav.php"); ?>
+
+            <div id="menu_contenu_page">
+            <h4 id="contenupage">contenu de la page</h4>
+                <p><a href="#inge">Ingénieur Méthodes</a></p>
+                <p><a href="#er">Responsable Etudes et Réalisations</a></p>
+                <p><a href="#ass">Responsable Réseaux Assainissement</a></p>
+                <p><a href="#sae">Responsable Service Aide à l'Exploitation</a></p>
+                <p><a href="#mp">Responsable Service Méthodes et Planification</a></p>
+                <p><a href="#rc">Responsable Relation Clients</a></p>
+            </div>
+        </nav>
 		
 		<section class="contenu">
 		<header>
@@ -211,9 +186,7 @@
 		</section>
 		</section>
 				
-		<footer>
-		<p>© 2016 - site réalisé par Silvère Camponovo - dernière mise à jour le 06/01/2016.</p>
-		</footer>
+		<?php include("includes/footer.php"); ?>
 		
 	</body>
 </html>
