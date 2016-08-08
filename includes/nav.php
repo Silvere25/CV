@@ -14,8 +14,6 @@
 			<!-- attention pages html à créer -->
 			<p><a href="expe_info.php" class="disabled" title="page en cours de création">Focus projets informatiques</a></p>
 			<p><a href="etat_civil.php">Mon état civil</a></p>
-			<!-- attention page html à créer -->
-			<p><a href="spots.php" class="disabled" title="page en cours de création">Mes meilleurs spots</a></p>
 			<p id="contact"><a href="form_contact.php" class="disabled" title="page en cours de création">Contactez-moi</a>!</p>
-			<p id="telechargez_CV"><a href="docs/160103_CV.pdf">Téléchargez mon CV</a>!</p>
+			<p id="telechargez_CV"><a href="docs/160808_CV.pdf">Téléchargez mon CV</a>!</p>
 		</div>

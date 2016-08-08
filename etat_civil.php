@@ -36,7 +36,7 @@ include("includes/com.php");
 		<article class="colonne">
 		<h2 id="etat_civil">Etat civil</h2>
 			<ul>
-				<li>marié, 2 enfants de 11 et 7 ans.</li>
+				<li>marié, 2 enfants de 12 et 8 ans.</li>
 				<li>français, né le 18/03/1978 à Meaux(77).</li>
 				<li>réside à Vercel Villedieu-le-Camp (25).</li>
 				<li>coordonnées :
@@ -52,7 +52,7 @@ include("includes/com.php");
 		<h2>Où me trouver</h2>
 		<figure id="carte">
 			<iframe frameborder="0" scrolling="no" marginheight="5" marginwidth="5" width="600" height="400" src="https://maps.google.com/maps?hl=fr&q=2 rue des noyers, Vercel Villedieu-le-Camp&ie=UTF8&t=m&z=9&iwloc=B&output=embed"></iframe>
-			<figcaption>Carte de ma chère Comté</figcaption>
+			<figcaption>Ma chère Comté</figcaption>
 		</figure>
 		</article>
 		</section>

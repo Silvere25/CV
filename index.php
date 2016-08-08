@@ -35,7 +35,7 @@ include("includes/com.php");
 					<li>un bagage d'<a href="#formation">ingénieur</a>,</li>
 					<li>un profil <a href="#competences">couteaux-suisse</a>.</li>
 				</ul>
-			<p class="center">Je me lance en 2016 dans une mutation, une transition des métiers de l'industrie vers ceux du web.</p>
+			<p class="center">Je me lance en 2016 dans une mutation, une transition des métiers de l'industrie vers ceux du numérique.</p>
 		</header>
 		
 		<section class="corps-col">	
@@ -49,7 +49,15 @@ include("includes/com.php");
 					<li>Métrologie</li>
 					<li>Pilotage process industriel</li>
 				</ul>
-				
+
+			<h3>Informatique</h3>
+				<ul>
+					<li><em>Langages</em> C, C++, Java, PHP, Ruby, Javascript</li>
+					<li><em>Frameworks</em> J2EE, Symfony, Rails, MEAN</li>
+					<li><em>Bases de données</em> MySQL, Oracle, MongoDB, RDF, GraphDB</li>
+					<li><em>Intégration et développement web</em> HTML5, CSS3, Bootstrap, JQuery</li>
+				</ul>
+
 			<h3>Commercial</h3>
 				<ul>
 					<li>Pilotage de centre de profit</li>
@@ -58,14 +66,6 @@ include("includes/com.php");
 					<li>Etudes de marché</li>
 				</ul>
 
-			<h3>Informatique - <mark>en cours d'acquisition</mark></h3>
-				<ul>
-					<li><em>Langages</em> <a href="docs/certificat_silvere-camponovo_apprenez-a-programmer-en-c.pdf" title="certificat openclassrooms">C</a>, Java, PHP, Python, Ruby</li>
-					<li><em>Frameworks</em> J2EE, Symfony2, Django, Rails</li>
-					<li><em>Bases de données</em> MySQL, Oracle</li>
-					<li><em>Intégration et développement web</em> HTML5, CSS3, Javascript, JQuery</li>
-				</ul>
-				
 			<h3>Management</h3>
 				<ul>
 					<li>Gestion d'équipes pluridisciplinaires</li>
@@ -103,8 +103,8 @@ include("includes/com.php");
 		<section class="corps-lig">
 		<article class="ligne">	
 		<h2 id="formation" title="des moyens">Formations</h2>
-			<h3>Certification Ready to Web Development - <mark>en cours</mark></h3>
-				<p>Formation Code & Go en 2016 par la <a href="http://www.coding-academy.fr/">Coding Academy</a> by <strong>EPITECH</strong> au Kremlin-Bicêtre (94).</p>
+			<h3>Développeur Web</h3>
+				<p>Certifié en 2016 par la <a href="http://www.coding-academy.fr/">Coding Academy</a> by <strong>EPITECH</strong> au Kremlin-Bicêtre (94).</p>
 			
 			<h3>Ingénieur en Génie Industriel de l'Environnement</h3>
 				<p><a href="docs/EME.pdf" title="diplôme EME">Diplômé</a> en 2001 par l’Ecole des Métiers de l’Environnement à Rennes (35).</p>
@@ -122,8 +122,8 @@ include("includes/com.php");
 		<article class="ligne">
 		<h2 id="centreinteret" title="et de la passion">Centres d'intérêts</h2>
 			<ul>
-				<li><em><a href="spots.php"  class="disabled" title="page en cours de création">sport</a></em> : course à pied sur route comme dans la nature et VTT.</li>
-				<li><em><a href="spots.php"  class="disabled" title="page en cours de création">nature</a></em> : randonnées, photos.</li>
+				<li><em>sport</em> : course à pied sur route comme dans la nature et VTT.</li>
+				<li><em>nature</em> : randonnées, photos.</li>
 				<li><em>sciences</em> : veille sur les recherches et découvertes scientifiques, intérêt du moment pour la neurologie et les sciences cognitives.</li>
 				<li><em>nouvelles technologies</em> : passion pour les mesures, les capteurs et pour les objets et services qui en découlent.</li>
 			</ul>

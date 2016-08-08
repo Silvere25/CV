@@ -64,12 +64,18 @@ include("includes/com.php");
 				<td class="sansbordure"><a href="#j2014">jui 2014</a></td>
 				<td class="sansbordure"></td>
 				<td class="sansbordure"></td>
+				<td class="sansbordure"></td>
+				<td class="sansbordure"><a href="#j2016">juillet 2016</a></td>
+				<td class="sansbordure"></td>
+				<td class="sansbordure"></td>
 			</tr>
 			<tr>
 				<td colspan="9" rowspan="2"><a href="#inge">Ingénieur Méthodes</a></td>
 				<td colspan="12"><a href="#er">Resp. Etudes et Réalisations</a></td>
 				<td colspan="5"><a href="#sae">Resp. Aide à l'Exploitation</a></td>
 				<td colspan="3" rowspan="2"><a href="#rc">Resp. Relation Clients</a></td>
+				<td colspan="1" rowspan="2" class="grise"></td>
+				<td colspan="3" rowspan="2"><a href="#cl">Founder</a></td>
 			</tr>
 			<tr>
 				<td colspan="4" class="grise"></td>
@@ -82,6 +88,8 @@ include("includes/com.php");
 				<th colspan="12">Veolia Eau, Agence Pays de Montbéliard</th>
 				<th colspan="5">Veolia Eau, Centre Alsace Franche-Comté</th>
 				<th colspan="3">Jura Filtration</th>
+				<th colspan="1"></th>
+				<th colspan="3">ComtéLabs</th>
 			</tr>
 		</table>
 		
@@ -179,9 +187,21 @@ include("includes/com.php");
 		</article>
 		
 		<article class="bloc">		
-		<p class="date">Janvier 2016</p>
-		<p>Je me lance dans une mutation, une transition des métiers de l'industrie vers ceux du web.</p>
+			<p class="date">Janvier 2016</p>
+			<p>Je me lance dans une mutation, une transition des métiers de l'industrie vers ceux du numérique.</p>
+			<p>Le 1er juillet 2016 je suis certifié par la <a href="http://www.coding-academy.fr/">Coding Academy</a> by EPITECH.</p>
 		</article>
+
+		<article class="bloc">
+			<p class="date" id="j2016">Juillet 2016</p>
+			<h3 id="cl" title="ComtéLabs, le numérique au service du territoire">Founder</h3>
+			<p><em>ComtéLabs</em>, Vercel (25)</p>
+
+			<p>ComtéLabs est une structure en cours de création.</p>
+			<p>Objectif : mettre le numérique au service du territoire.</p>
+			<p>Premier projet : un outil de simplification de l'organisation et de facilitation de la communication pour les associations.</p>
+		</article>
+
 		</section>
 		</section>
 		</section>

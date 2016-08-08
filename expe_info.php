@@ -26,7 +26,6 @@ include("includes/com.php");
         <section class="corps-col">
         <article class="colonne">
         <h2>Page en cours de construction</h2>
-            <p>La dure vie d'étudiant me m'a pas encore laissée le temps de vous faire partager ces projets.</p>
         </article>
         
         <article class="colonne">
