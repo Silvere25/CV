@@ -79,7 +79,10 @@ include("includes/com.php");
 		<article class="colonne">
 		<h2 id="experience" title="du vécu"><a href="experiences.php">Expériences</a></h2>
 			<p class="focus_info"><a href="expe_info.php" title="focus sur mes expériences autour des projets informatiques - page en cours de création"  class="disabled">Focus bagage informatique et AMOA</a></p>
-		
+
+			<h3><a href="experiences.php#cl">Founder</a></h3>
+			<p><a href="http://www.comtelabs.fr">ComtéLabs</a>, Vercel (25) - depuis Juillet 2016</p>
+
 			<h3><a href="experiences.php#rc">Responsable Relation Clients</a></h3>
 				<p>Jura Filtration, Pontarlier (25) - Juillet 2014 à Décembre 2015</p>
 		

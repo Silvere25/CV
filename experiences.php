@@ -197,7 +197,7 @@ include("includes/com.php");
 			<h3 id="cl" title="ComtéLabs, le numérique au service du territoire">Founder</h3>
 			<p><em>ComtéLabs</em>, Vercel (25)</p>
 
-			<p>ComtéLabs est une structure en cours de création.</p>
+			<p><a href="http://www.comtelabs.fr">ComtéLabs</a> est une structure en cours de création.</p>
 			<p>Objectif : mettre le numérique au service du territoire.</p>
 			<p>Premier projet : un outil de simplification de l'organisation et de facilitation de la communication pour les associations.</p>
 		</article>

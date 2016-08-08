@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e38c6200-9d78-49ff-84ea-9b0b84ef72ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/160808_CV.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/CV.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/160103_CV.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/certificat_silvere-camponovo_apprenez-a-programmer-en-c.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spots.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etat_civil.php" afterPath="$PROJECT_DIR$/etat_civil.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expe_info.php" afterPath="$PROJECT_DIR$/expe_info.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiences.php" afterPath="$PROJECT_DIR$/experiences.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/com.php" afterPath="$PROJECT_DIR$/includes/com.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.php" afterPath="$PROJECT_DIR$/includes/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/nav.php" afterPath="$PROJECT_DIR$/includes/nav.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="CV.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,21 +26,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="592">
-                  <caret line="106" column="83" selection-start-line="106" selection-start-column="43" selection-end-line="106" selection-end-column="83" />
+                <state relative-caret-position="704">
+                  <caret line="83" column="43" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="experiences.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="experiences.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/experiences.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="736">
-                  <caret line="208" column="48" selection-start-line="208" selection-start-column="48" selection-end-line="208" selection-end-column="48" />
+                <state relative-caret-position="3184">
+                  <caret line="199" column="49" selection-start-line="199" selection-start-column="15" selection-end-line="199" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -170,7 +151,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/contact.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/expe_info.php" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/includes/nav.php" />
@@ -179,6 +159,7 @@
         <option value="$PROJECT_DIR$/includes/com.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/experiences.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -344,12 +325,12 @@
       <option name="presentableId" value="Default" />
       <updated>1457689100961</updated>
       <workItem from="1461181250519" duration="59000" />
-      <workItem from="1470655115811" duration="2858000" />
+      <workItem from="1470655115811" duration="3195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2917000" />
+    <option name="totallyTimeSpent" value="3254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-1444" width="2560" height="1444" extended-state="6" />
@@ -746,14 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="106" column="83" selection-start-line="106" selection-start-column="43" selection-end-line="106" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -812,8 +785,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/experiences.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="208" column="48" selection-start-line="208" selection-start-column="48" selection-end-line="208" selection-end-column="48" />
+        <state relative-caret-position="3184">
+          <caret line="199" column="49" selection-start-line="199" selection-start-column="15" selection-end-line="199" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="83" column="43" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
           <folding />
         </state>
       </provider>
