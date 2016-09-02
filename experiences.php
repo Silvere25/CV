@@ -198,8 +198,13 @@ include("includes/com.php");
 			<p><em>ComtéLabs</em>, Vercel (25)</p>
 
 			<p><a href="http://www.comtelabs.fr">ComtéLabs</a> est une structure en cours de création.</p>
-			<p>Objectif : mettre le numérique au service du territoire.</p>
-			<p>Premier projet : un outil de simplification de l'organisation et de facilitation de la communication pour les associations.</p>
+			<p>"le numérique au service du territoire."</p>
+			<p>3 projets portés au démarrage :</p>
+			<ul>
+				<li>Faciliter la gestion et la communication des organisations légères (associations, mairies) en proposant une application de réseau social local doublée d’un outil de pilotage de la structure et de ses évènements.</li>
+				<li>Proposer un outil d’évaluation collaborative qui facilite l’écoute et l’intégration des idées et projets internes à une structure pour accélérer l’ajout de valeur.</li>
+				<li>Faciliter les circuits courts en proposant aux commerces et producteurs locaux un outil commun de vente en ligne et de promotion.</li>
+			</ul>
 		</article>
 
 		</section>
